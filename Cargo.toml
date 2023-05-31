@@ -1,0 +1,11 @@
+[package]
+name = "luajit-rust-test"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "luajit_rust_test"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
